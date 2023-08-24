@@ -24,11 +24,13 @@ function Navbar() {
 
                     </div>
                 </div>
+                {/* Cart icon */}
                 <div onClick={()=>navigate('/shoppingCart')} className="p-1 cursor-pointer  relative">
                   
                     <span>
                         <FaCartShopping size={30} className="text-[#ffcf98]" />
                     </span>
+                    {/* Cart Count */}
                     <div className="absolute px-2 -top-4 left-5 bg-[#ffcf98] rounded-full"><span className="text-white">4</span></div>
 
 
